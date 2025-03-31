@@ -1,0 +1,78 @@
+<!-- Generated with EZOut 2.0.6: Install-Module EZOut or https://github.com/StartAutomating/EZOut -->
+<Types>
+  <Type>
+    <Name>neocities.file</Name>
+    <Members>
+      <ScriptProperty>
+        <Name>CreatedAt</Name>
+        <GetScriptBlock>
+                        &lt;#
+.SYNOPSIS
+    Gets the creation time
+.DESCRIPTION
+    Gets the creation time, as a `[DateTime]` object.
+#&gt;
+$this.created_at -as [DateTime]
+
+                    </GetScriptBlock>
+      </ScriptProperty>
+      <ScriptProperty>
+        <Name>UpdatedAt</Name>
+        <GetScriptBlock>
+                        &lt;#
+.SYNOPSIS
+    Gets the last update time
+.DESCRIPTION
+    Gets the last update time, as a `[DateTime]` object.
+#&gt;
+$this.updated_at -as [DateTime]
+
+                    </GetScriptBlock>
+      </ScriptProperty>
+    </Members>
+  </Type>
+  <Type>
+    <Name>neocities.info</Name>
+    <Members>
+      <ScriptProperty>
+        <Name>CreatedAt</Name>
+        <GetScriptBlock>
+                        &lt;#
+.SYNOPSIS
+    Gets the creation time
+.DESCRIPTION
+    Gets the creation time, as a `[DateTime]` object.
+#&gt;
+$this.created_at -as [DateTime]
+
+                    </GetScriptBlock>
+      </ScriptProperty>
+      <ScriptProperty>
+        <Name>UpdatedAt</Name>
+        <GetScriptBlock>
+                        &lt;#
+.SYNOPSIS
+    Gets the last update time
+.DESCRIPTION
+    Gets the last update time, as a `[DateTime]` object.
+#&gt;
+$this.last_updated -as [DateTime]
+
+                    </GetScriptBlock>
+      </ScriptProperty>
+      <ScriptProperty>
+        <Name>Url</Name>
+        <GetScriptBlock>
+                        param()
+if ($this.Domain) {
+    "https://$($this.Domain)/"
+}
+elseif ($this.sitename) {
+    "https://$($this.sitename).neocities.org/"
+}
+
+                    </GetScriptBlock>
+      </ScriptProperty>
+    </Members>
+  </Type>
+</Types>
