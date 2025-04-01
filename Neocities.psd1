@@ -13,10 +13,10 @@
     PrivateData = @{
         PSData = @{
             Tags = @('neocities', 'PowerShell', 'Web', 'PowerShellWeb')
-            ProjectURI = 'https://github.com/PowerShellWeb/NeoPS'
-            LicenseURI = 'https://github.com/PowerShellWeb/NeoPS/blob/main/LICENSE'
+            ProjectURI = 'https://github.com/PowerShellWeb/Neocities'
+            LicenseURI = 'https://github.com/PowerShellWeb/Neocities/blob/main/LICENSE'
             ReleaseNotes = @'            
-> Like It? [Star It](https://github.com/PowerShellWeb/NeoPS)
+> Like It? [Star It](https://github.com/PowerShellWeb/Neocities)
 > Love It? [Support It](https://github.com/sponsors/StartAutomating)
 
 ## Neocities 0.1
