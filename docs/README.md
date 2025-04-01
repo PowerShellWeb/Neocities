@@ -28,7 +28,7 @@ Import-Module Neocities -PassThru
 
 ### Neocities Commands 
 
-* [Get-Neocities](docs/Get-Neocities.md) gets neocities content
-* [Set-Neocities](docs/Set-Neocities.md) sets neocities content
-* [Remove-Neocities](docs/Remove-Neocities.md) removes neocities content
-* [Connect-Neocities](docs/Connect-Neocities.md) connects with a credential and gives you an access token
+* [Get-Neocities](Get-Neocities.md) gets neocities content
+* [Set-Neocities](Set-Neocities.md) sets neocities content
+* [Remove-Neocities](Remove-Neocities.md) removes neocities content
+* [Connect-Neocities](Connect-Neocities.md) connects with a credential and gives you an access token
